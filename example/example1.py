@@ -6,7 +6,8 @@
 
 # Here we define all experiments, get data and then close the connection
 
-import AdmiralSquidstatWrapper
+import admiral
+from admiral import AdmiralSquidstatWrapper
 
 # Initialize the potentiostat
 measurement = AdmiralSquidstatWrapper(port="COM5", instrument_name="Plus1894")
