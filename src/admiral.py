@@ -29,7 +29,7 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
-class AdmiralWrapper:
+class AdmiralSquidstatWrapper:
     def __init__(self, port="COM5", instrument_name="Plus1894"):
         """Initialize the AdmiralWrapper class. This class is used to interface with the Admiral potentiostat.
 
