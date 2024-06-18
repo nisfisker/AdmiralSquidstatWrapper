@@ -1,0 +1,8 @@
+*.egg-info/
+.ipynb_checkpoints/
+.vscode/
+__pycache__/
+build/
+.DS_Store
+*.log
+*.code-workspace
