@@ -6,11 +6,10 @@
 
 # Here we define all experiments, get data and then close the connection
 
-import admiral
-from admiral import AdmiralSquidstatWrapper
+from ..src.admiral import AdmiralWrapper
 
 # Initialize the potentiostat
-measurement = AdmiralSquidstatWrapper(port="COM5", instrument_name="Plus1894")
+measurement = AdmiralWrapper(port="COM5", instrument_name="Plus1894")
 
 ###### Setup EIS potentiostatic experiment ######
 measurement.setup_EIS_potentiostatic()
